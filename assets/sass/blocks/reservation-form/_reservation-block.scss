@@ -1,0 +1,30 @@
+.reservation-form {
+  &__text {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .section__title {
+    text-align: center;
+  }
+
+  &__form {
+    width: 100%;
+    border-radius: 40px;
+    background-color: #0d0432;
+    padding: 60px;
+
+    form {
+      max-width: 1320px;
+      margin: 0px auto;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reservation-form {
+    &__form {
+      padding: 60px 20px;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.about-us {
+  &__background {
+    background-color: #0d0432;
+  }
+
+  &__content {
+    .wp-block-group {
+      & + .wp-block-group {
+        margin-top: 24px;
+      }
+
+      > * + * {
+        margin-top: 16px;
+      }
+
+      .alignleft {
+        float: left;
+        margin-right: 12px;
+        margin-bottom: 8px;
+
+        img {
+          width: max-content;
+        }
+      }
+
+      &.swiper-gallery + .wp-block-group,
+      & + .wp-block-group.swiper-gallery {
+        margin-top: 36px;
+      }
+    }
+
+    .wp-block-columns {
+      .wp-block-column {
+        & + .wp-block-column {
+          margin-left: 28px;
+        }
+      }
+    }
+
+    .wp-block-image {
+      width: 230px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-us {
+    &__content {
+      .wp-block-columns {
+        .wp-block-column {
+          & + .wp-block-column {
+            margin-left: 0px;
+            margin-top: 32px;
+          }
+        }
+      }
+    }
+  }
+}

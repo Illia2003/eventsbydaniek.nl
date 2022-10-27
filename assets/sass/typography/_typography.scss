@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.eot") format("embedded-opentype"),
+    url("../fonts/Montserrat-Regular.ttf") format("truetype"),
+    url("../fonts/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-SemiBold.eot") format("embedded-opentype"),
+    url("../fonts/Montserrat-SemiBold.ttf") format("truetype"),
+    url("../fonts/Montserrat-SemiBold.woff") format("woff"),
+    url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../fonts/Montserrat-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.eot") format("embedded-opentype"),
+    url("../fonts/Montserrat-Bold.ttf") format("truetype"),
+    url("../fonts/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/Montserrat-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.heading-1,
+h1 {
+  font-size: 72px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-style: normal;
+  line-height: 114%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading-2,
+h2 {
+  font-size: 56px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-style: normal;
+  line-height: 114%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading-3,
+h3 {
+  font-size: 42px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-style: normal;
+  line-height: 114%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading-4,
+h4 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-style: normal;
+  line-height: 114%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading-5,
+h5 {
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 114%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading-6,
+h6 {
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 114%;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .heading-1,
+  h1 {
+    font-size: 36px;
+  }
+
+  .heading-2,
+  h2 {
+    font-size: 32px;
+  }
+
+  .heading-3,
+  h3 {
+    font-size: 30px;
+  }
+
+  .heading-4,
+  h4 {
+    font-size: 24px;
+  }
+
+  .heading-5,
+  h5 {
+    font-size: 20px;
+  }
+
+  .heading-6,
+  h6 {
+    font-size: 18px;
+  }
+}

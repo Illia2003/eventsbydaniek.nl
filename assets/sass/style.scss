@@ -1,0 +1,27 @@
+// ------ NORMALIZE ------
+@import "./normalize/normalize";
+
+// ------ TYPOGRAPHY ------
+@import "./typography/typography";
+
+// ------ BASE ------
+@import "./base/base";
+
+// ------ SWIPER -------
+@import "./swiper/swiper";
+
+// ------ FORM -------
+@import "./form/form";
+
+// ------ HEADER -------
+@import "./header/header";
+
+// ------ BLOCKS -------
+@import "./blocks/blocks";
+
+// ------ FOOTER -------
+@import "./footer/footer";
+
+.block-hide {
+  display: none;
+}

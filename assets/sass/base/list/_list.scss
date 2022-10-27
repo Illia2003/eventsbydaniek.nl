@@ -1,0 +1,13 @@
+.list {
+  list-style: none;
+
+  &--horizontal {
+    > li {
+      display: inline-block;
+
+      & + li {
+        margin-left: 22px;
+      }
+    }
+  }
+}

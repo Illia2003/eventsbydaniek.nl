@@ -1,0 +1,23 @@
+.simple-text-with-image {
+  &__content {
+    flex: 0 1 500px;
+    margin-right: 40px;
+  }
+
+  &__image {
+    flex: 0 1 450px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .simple-text-with-image {
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__content {
+      margin-right: 0px;
+      margin-bottom: 40px;
+    }
+  }
+}

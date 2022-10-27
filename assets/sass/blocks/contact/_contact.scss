@@ -1,0 +1,109 @@
+.contact {
+  &__background {
+    background-color: #0d0432;
+  }
+
+  &__content {
+    flex: 0 1 100%;
+    margin-right: 18px;
+  }
+
+  &__right {
+    flex: 0 1 100%;
+    margin-left: 18px;
+
+    > * + * {
+      margin-top: 24px;
+    }
+  }
+
+  &__image {
+    height: 320px;
+  }
+
+  &__map {
+    width: 100%;
+
+    iframe {
+      width: 100%;
+      border-radius: 24px;
+    }
+  }
+
+  &__block {
+    .block__title {
+      margin-bottom: 6px;
+    }
+
+    & + & {
+      margin-top: 24px;
+    }
+  }
+
+  &__social-media {
+    .list__item {
+      & + .list__item {
+        margin-left: 8px;
+      }
+    }
+
+    .list__link {
+      display: block;
+      width: 32px;
+      height: 32px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .social-media__link--facebook {
+      background-color: #3b5998;
+    }
+
+    .social-media__link--whatsapp {
+      background-color: #25d366;
+    }
+
+    .social-media__link--instagram {
+      background-color: #ea2c59;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contact {
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__content {
+      margin-right: 0px;
+      margin-bottom: 36px;
+    }
+
+    &__right {
+      margin-left: 0px;
+    }
+
+    &__map {
+      iframe {
+        width: 100%;
+      }
+    }
+
+    &__block {
+      .block__title {
+        margin-bottom: 6px;
+      }
+
+      & + & {
+        margin-top: 24px;
+      }
+    }
+
+    &__image {
+      height: 320px;
+    }
+  }
+}

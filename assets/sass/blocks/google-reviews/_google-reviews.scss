@@ -1,0 +1,17 @@
+.google-reviews {
+  &__list {
+    width: 100%;
+    border-radius: 40px;
+    background-color: #0d0432;
+    padding: 60px;
+  }
+
+  .ti-widget.ti-goog {
+    .ti-review-item {
+      > .ti-inner {
+        background-color: #180370 !important;
+        border-color: #180370 !important;
+      }
+    }
+  }
+}
